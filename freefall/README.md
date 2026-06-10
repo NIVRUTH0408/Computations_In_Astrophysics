@@ -1,14 +1,14 @@
 Free Fall Under Gravity 
 
 Problem Statement:
-A test object is at rest at a distance of r_0 = 1 AU ( ~ 1.5e11 metres) from the centre of a star of mass M = 2e30 kilograms and radius R = 6.957e8 metres. This object is set to fall freely from this distance towards the star under the effect of the star's gravitational force. The variation of the distance and the free-fall velocity over time is to be determined until the object hits the stellar surface.
+A test object is at rest at a distance of r_0 = 1 AU ( ~ 1.5e11 metres) from the centre of a star of mass M = 2e30 kilograms and radius R = 6.957e8 metres. This object is set to fall freely from this distance towards the star under the effect of the star's gravitational force. The variation of the distance and the free-fall velocity over time is to be determined until the object hits the stellar surface. 
 
 Methodology:
 The underlying physical equation is expressed as a second-order ODE, and this is further split into a system of two first-order ODEs. These two first-order ODEs are then solved numerically using the following numerical methods:
     1. Fourth Order Runge-Kutta Method (RK4)
     2. Euler's Method
-
-Key Results: and Observations:
+The accuracy of the latter is compared with that of the former at various time steps.
+Key Results and Observations:
 1. For an initial step value in time of dt = 1000s, the RK4 and Euler's method provided similar results with slight variations in the behaviour of free-fall velocity.
 <img width="1600" height="767" alt="image" src="https://github.com/user-attachments/assets/58edd656-4a72-406c-9330-bbfb6529a198" />
 <img width="1608" height="771" alt="image" src="https://github.com/user-attachments/assets/0beb11bd-2248-47ec-be69-ea80033193ca" />
