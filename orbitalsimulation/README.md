@@ -1,10 +1,10 @@
-Orbit of the Earth
+# Orbit of the Earth
 
-Problem Statement: 
+# Problem Statement: 
 
 To plot the orbit of the Earth around the Sun using the equations of motion governed by the gravity of the Sun.
 
-Methodology:
+# Methodology:
 
 Initially, the governing second-order ODE is formulated via Newton's Law of Gravitation in both the Cartesian coordinates, namely x and y. 
 
@@ -16,7 +16,7 @@ These ODEs are solved numerically using the RK4 method using proper initial cond
 
 The position of the sun is marked at the origin, and the earth is marked at the initial point ( 1.496e11, 0 ).
 
-Results:
+# Results:
 
 The numerical solutions of the ODEs are plotted in the Cartesian plane, and the orbit is visualised.
 
