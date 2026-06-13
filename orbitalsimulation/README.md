@@ -8,7 +8,7 @@ To plot the orbit of the Earth around the Sun using the equations of motion gove
 
 Initially, the governing second-order ODE is formulated via Newton's Law of Gravitation in both the Cartesian coordinates, namely x and y. 
 
-$$\frac{d^2x}{dt^2} = -\frac{GMx}{r^3}$$ , $$\frac{d^2y}{dt^2} = -\frac{GMy}{r^3}$$
+$$\frac{d^2x}{dt^2} = -\frac{GMx}{r^3}$$  $$\frac{d^2y}{dt^2} = -\frac{GMy}{r^3}$$
 
 These two ODEs are further split into first-order ODEs governing the behaviour of positions and velocities in those directions. 
 
