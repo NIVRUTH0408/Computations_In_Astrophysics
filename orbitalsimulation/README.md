@@ -14,7 +14,7 @@ These two ODEs are further split into first-order ODEs governing the behaviour o
 
 These ODEs are solved numerically using the RK4 method using proper initial conditions, resulting in the x and y positions being plotted using the built-in MATLAB plotter.
 
-The position of the sun is marked at the origin, and the earth is marked at the initial point ( 1.496e11, 0 ).
+The position of the sun is marked at the origin, and the earth is marked at the initial point ( $1.496 \times 10^{8}$ , 0 ).
 
 # Results:
 
