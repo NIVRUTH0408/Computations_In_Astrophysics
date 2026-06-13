@@ -45,10 +45,10 @@ figure;
 plot(x, y,'r');
 hold on;
 plot(0,0,'y.',MarkerSize=100);
-plot(x(1),0,'g.',MarkerSize=50)
+plot(x(1),0,'g.', MarkerSize=50)
 xlabel('X Position (m)');
 ylabel('Y Position (m)');
-title('Trajectory of the Object');
 axis equal;
 grid on;
+legend('Earth Orbit', 'Sun', 'Initial Position');
 title('Orbit Simulation of the Earth');
