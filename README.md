@@ -14,4 +14,4 @@ The variation of distance and velocity with respect to time was determined using
 
 2. Orbit of the Earth
 
-The orbital path of the Earth around the Sun was plotted in two dimensions by solving Newton's gravitational formula using the RK4 numerical method.
+The orbital path of the Earth around the Sun was plotted in two dimensions by solving Newton's gravitational formula and Kepler's Law using the RK4 numerical method.
