@@ -4,13 +4,13 @@ A collection of computational problems in astrophysics solved numerically using 
 
 # Motivation 
 
-As a mechanical engineering undergraduate, I am self-learning astrophysics using online resources. This repository documents some of the fucndamental computational problems in astrophysics and their solutions determined using MATLAB software.
+As a mechanical engineering undergraduate, I am self-learning astrophysics using online resources. This repository documents some of the fundamental computational problems in astrophysics and their solutions determined using MATLAB software.
 
 # Problems Documented
 
 1. Free-fall behaviour of a mass
 
-The variation of distance and velocity with respect to time was determined using RK4 and Euler's numerical methods, and the results were compared with each other for accuracy. 
+The variation of distance and velocity with respect to time was determined using the RK4 and Euler numerical methods, and the results were compared for accuracy. 
 
 2. Orbit of the Earth
 
